@@ -1,0 +1,41 @@
+ body{
+     background-color: aqua;
+     width: 70vw;
+     height: 40vh;
+     padding: auto;
+    }
+
+#container{
+    background: linear-gradient(90deg  ,rgb(40, 0, 58),rgb(151, 1, 1));
+    color: aliceblue;
+    margin: 20vh 20vh;
+    padding: 10vh;
+    box-shadow: 0px 0px 40px 2px rgb(68, 1, 12);    
+}
+
+button{
+    margin: 50px;
+    padding: 15px 30px ;
+    border: 5px solid #ff0055;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: 4000;
+    background-color: rgb(2, 2, 41);
+    color: aqua;
+    box-shadow: 5px 10px 40px 20px rgb(255, 147, 165);
+    text-transform:capitalize;
+   
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* align-content: center; */
+    justify-content: center;
+    color: rgb(255, 248, 214);
+    text-decoration:dashed;
+    
+}
+
